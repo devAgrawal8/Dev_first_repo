@@ -13,7 +13,15 @@ interface ChatInterfaceProps {
   selectedFile: string | null;
   hasDocuments: boolean;
 }
+interface ChatInterfacePropss {
+  selectedFile: string | null;
+  hasDocuments: boolean;
+}
 
+interface ChatInterfacePropsss {
+  selectedFile: string | null;
+  hasDocuments: boolean;
+}
 export function ChatInterface({ selectedFile, hasDocuments }: ChatInterfaceProps) {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState("");
